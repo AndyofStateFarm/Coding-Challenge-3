@@ -7,9 +7,14 @@ class car{
         this.speed = speed;
     }
 
-    // Accelerate car's speed by 10 km/h
+    // Increase car's speed by 10 km/h
     accelerate(){
         this.speed += 10;
         console.log(`${this.make} accelerated 10 km/h. Speed is now ${this.speed} km/h`);
     }
+
+    // Derease car's speed by 5 km/h
+    brake(){
+        this.speed -= 5;
+        console.log(`${this.make} braked to slow down 5 km/h. Speed is now ${this.speed} km/h`);
 }
